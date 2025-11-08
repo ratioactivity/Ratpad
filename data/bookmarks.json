@@ -1,0 +1,48 @@
+{
+  "Home": {
+    "main": "https://www.notion.so/Home-ff42302797964ca0aa31c9d81ab26979",
+    "subs": {
+      "Apothecary": "https://www.notion.so/The-Apothecary-1f486c3bb6b980c59cfdccec5869cce8",
+      "Radium": "https://www.notion.so/Radium-26886c3bb6b980ea9b59d525925f951b"
+    }
+  },
+  "BOTA": {
+    "main": "https://www.notion.so/BOTA-10586c3bb6b980dbadddf8e6568086d1",
+    "subs": {
+      "Maive": "https://www.notion.so/Maive-11086c3bb6b980528a2ce0ca1bdecf2e",
+      "Vzejrin": "https://www.notion.so/Vzejrin-11086c3bb6b980a3b671e94d9c6a16ef",
+      "Akasha": "https://www.notion.so/Akasha-1e286c3bb6b980b0b3ccc1b12066f89d",
+      "Power, Gods, and Religion": "https://www.notion.so/Power-Gods-and-Religion-1f786c3bb6b980e7b2abe2dab2744d66",
+      "Languages": "https://www.notion.so/Languages-1ff86c3bb6b98045aac0fa2e0270a974",
+      "1040s Megadoc": "https://www.notion.so/1040s-Megadoc-1f886c3bb6b980098066f1f8395143dc",
+      "520s Megadoc": "https://www.notion.so/520s-Megadoc-1fe86c3bb6b9809f92f2c21992bfe37f"
+    }
+  },
+  "SOMA": {
+    "main": "https://www.notion.so/SOMA-23286c3bb6b980ffbeddd4a8cf15d2e6",
+    "subs": {
+      "SOMA Adaptations": "https://www.notion.so/SOMA-Adaptations-26c86c3bb6b980d0a8c4f8936797fa25",
+      "History": "https://www.notion.so/History-26c86c3bb6b980f88cb1df76a8b0c1b4",
+      "SOMA Squad": "https://www.notion.so/SOMA-Squad-27186c3bb6b980fdae57d4fd16ca5ba1",
+      "Apex Survivors": "https://www.notion.so/Apex-Survivors-26c86c3bb6b980e69445c38ea2502cce"
+    }
+  },
+  "Sojairn": {
+    "main": "https://www.notion.so/Sojairn-23686c3bb6b980ef8bb1d8df1e223ba2",
+    "subs": {
+      "Bestiary": "https://www.notion.so/Bestiary-23986c3bb6b980098694d410d78a5fa7"
+    }
+  },
+  "Teeth": {
+    "main": "https://www.notion.so/Teeth-25886c3bb6b980839c48c00157c46ca1",
+    "subs": {}
+  },
+  "Web": {
+    "main": "https://chatgpt.com",
+    "subs": {
+      "ChatGPT": "https://chatgpt.com",
+      "Ebay": "https://www.ebay.com",
+      "Background Remover": "https://www.remove.bg"
+    }
+  }
+}

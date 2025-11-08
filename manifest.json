@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Ratpera Sidebar",
+  "description": "Your ocean-themed sidebar dashboard.",
+  "version": "0.1",
+  "icons": {
+    "16": "icon128.png",
+    "48": "icon128.png",
+    "128": "icon128.png"
+  },
+  "sidebar_action": {
+    "default_panel": "index.html",
+    "default_title": "Ratpera"
+  },
+  "permissions": ["storage", "sessions"],
+  "host_permissions": [
+    "<all_urls>",
+    "https://live.orcasound.net/*",
+    "https://icecast.orcasound.net/*",
+    "https://en.wikipedia.org/*",
+    "https://www.youtube.com/*",
+    "https://adarkroom.doublespeakgames.com/*",
+    "https://gx.games/*",
+    "https://*.gx.games/*",
+    "https://pro.stream101.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["arcade/2048/*", "images/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://live.orcasound.net https://adarkroom.doublespeakgames.com https://gx.games https://*.gx.games https://pro.stream101.com;"
+  }
+}
