@@ -1,0 +1,62 @@
+{
+  "name": "ratpad-desktop",
+  "version": "0.1.0",
+  "description": "Electron wrapper for Ratpad UI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "build": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.ratpad.desktop",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "!dist/**/*",
+      "!build/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "..",
+        "filter": [
+          "index.html",
+          "script.js",
+          "style.css",
+          "data/**",
+          "images/**",
+          "fonts/**",
+          "arcade/**",
+          "icon128.png"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "../icon128.png"
+    }
+  }
+}
